@@ -1,7 +1,9 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Проект вебсайта, который выводит смешные шутки. Шутки записаны в index.html
+. Шутки меняются каждый раз при загрузке страницы или при нажатии на кнопку.
 
-# Project Goals
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+# Цели проекта
+
+Проект написан с целью обучения. Курс для веб-разработчиков - [DEVMAN.org](https://devman.org)

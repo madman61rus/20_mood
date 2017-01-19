@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+  <meta charset="utf-8">
   <title>Настроение</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <script id="quotes_json" type="application/json">
     [
       {
@@ -13,10 +16,59 @@
       },
       {
         "phrase": "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
+      },
+      {
+        "phrase": "Хочу научиться засыпать вечером также быстро, как и утром после будильника."
+      },
+      {
+        "phrase": "Тяжело быть противником смертной казни после того, как соседи купили караоке!"
+      },
+      {
+        "phrase": "Время - удивительная штука. Его так мало, когда опаздываешь, и так много, когда ждёшь."
+      },
+      {
+        "phrase": "Ненавижу перепады настроения, это просто потрясающе!"
+      },
+      {
+        "phrase": "Дела идут пока отлично, поскольку к ним не приступал"
+      },
+      {
+        "phrase": "Люди очень удивляются, когда с ними поступаешь так же, как и они с тобой."
+      },
+      {
+        "phrase": "Любовь слепа, но брак восстанавливает зрение."
+      },
+      {
+        "phrase": "Ничто так не убеждает в существовании души, как ощущение того, что в неё насрали"
       }
     ]
   </script>
+
 </head>
 <body>
+
+<div class="container">
+<div class="row ">
+  <div class="col-sm-12">
+
+  <div class="card text-center">
+  <div class="card-header">
+
+  </div>
+  <div class="card-block">
+    <h2 class="card-title">Фраза дня</h2>
+    <p id="phrase" class="card-text"></p>
+    <p id="signature" class="card-text"></p>
+    <a id="next" href="#" class="btn btn-primary">Следующая</a>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootsrap.min.js"></script>
+<script src="js/phrases.js"></script>
 </body>
 </html>
