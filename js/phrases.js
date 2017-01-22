@@ -8,7 +8,7 @@ function load_message()
 }
 $(document).ready(function(){
     load_message();
-    $("#next").click(function(){
+    next.click(function(){
         load_message();
     });
 });
