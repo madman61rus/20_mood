@@ -6,10 +6,6 @@ function load_message(quotas,phrase,signature)
     signature.text(message['signature'] ? message['signature'] : '');
 
 }
-$(document).ready(function(){
-    next.click(function(){
-        load_message(quotas,phrase,signature);
-    });
-});
+
 
 
